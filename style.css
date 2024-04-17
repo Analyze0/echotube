@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #F878CD;
+  color: white;
+}
+
+.header h1 {
+  margin-left: 15px;
+}
+
+.main {
+  display: flex;
+  margin-top: 100px;
+}
+
+.message {
+  margin-left: 10px;
+  width: 50%;
+}
+
+.store {
+  display: flex;
+}
+
+.left, .right {
+  width: 24vw;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.left img {
+  width: 100%;
+}
+
+.category {
+  color: #8E7AB5;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.price {
+  font-size: 20px;
+}
